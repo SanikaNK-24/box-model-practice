@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Manrope', sans-serif;
+}
+
+.card-five {  
+    width: 330px;
+    height: 580px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.description {
+    font-size: small;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    margin: 10px;
+    text-align: left;
+}
+
+.labels {
+    font-size: small;
+    color: gray;
+}
+
+.input {
+    width: 100%;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.input:focus, select::selection {
+    border: 2px solid blueviolet;
+    outline: none;
+    box-shadow: 0 0 8px rgb(110, 108, 108)
+}
+
+.btn-wrapper {
+    margin: 15px 10px 10px 10px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    font-size: medium;
+    background-color: blueviolet;
+    color: white;
+    font-weight:400;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+}
